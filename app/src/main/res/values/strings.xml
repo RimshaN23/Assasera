@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Assasera</string>
+
+    <string name="splashlogo">splashLogo</string>
+
+    <string name="image1">image!</string>
+
+    <string name="welcometitle1">Your Dream Home, Your Terms</string>
+    <string name="welcometext1">Take charge of your home-buying journey with Assesera.
+As a buyer, you dictate the criteria for your dream property.
+Post your needs, preferences, and desires, and let
+experienced real estate agents come to you. With Assesera,
+you are in control from start to finish, ensuring a personalized
+and tailored home-buying experience like no other.</string>
+
+    <string name="welcometitle2">Access Potential Buyers Instantly</string>
+    <string name="welcometext2">Welcome to a revolutionary approach to real estate. In
+Assesera, experienced real estate agents have direct
+access to potential buyers actively seeking their services.
+Simply join our platform, review posted requirements, and
+connect with buyers ready to embark on their
+home-buying journey. Get prepared to engage with
+motivated buyers and showcase your expertise in helping
+them find their ideal property.</string>
+
+    <string name="welcometitle3">Simplified Home Buying, Seamlessly Connected</string>
+    <string name="welcometext3">Assesera is your one-stop destination for hassle-free
+home buying. Our platform facilitates direct connections
+between buyers and eager real estate agents. Say
+goodbye to traditional complexities and hello to seamless
+transactions. With Assesera, find your dream home
+effortlessly and enjoy a stress-free home-buying experience.</string>
+    <string name="signin">Signin</string>
+    <string name="register">Register</string>
+    <string name="login_your_account">Login your account</string>
+    <string name="logintext">Access your account and start ask assasera what you need.</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_name">Full name</string>
+    <string name="enter_your_number">Phone number</string>
+    <string name="recover_password">Recover Password</string>
+    <string name="or">or</string>
+    <string name="not_a_member">Not a member?</string>
+    <string name="register_now">Register Now</string>
+    <string name="registertext">No more middlemen or waiting games. With Assesera, real estate agents have direct access to your needs.</string>
+    <string name="agree_text">Agree with our terms and condition of Assasera App before you register</string>
+    <string name="my_profile">My Profile</string>
+    <string name="update_changes">Update Changes</string>
+
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_clr"
+    android:padding="10dp"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="53dp"
+        android:src="@drawable/logo_blue"
+        android:layout_marginTop="39dp"
+        android:contentDescription="@string/image1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:fontFamily="@font/raleway_bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/registertext"
+        android:textColor="@color/text_clr"
+        android:textSize="14sp"
+        android:fontFamily="@font/raleway"
+        android:layout_marginTop="2dp"/>
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_email"
+        android:textColorHint="@color/text_clr"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:elevation="3dp"/>
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_password"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/enter_your_email"
+        android:textColorHint="@color/text_clr"
+        android:inputType="textPassword"
+        android:elevation="3dp"/>
+
+  <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_name"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/enter_your_name"
+      android:textColorHint="@color/text_clr"
+      android:inputType="text"
+        android:elevation="3dp"/>
+
+    <EditText
+        android:id="@+id/phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_number"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/enter_your_number"
+        android:textColorHint="@color/text_clr"
+        android:inputType="phone"
+        android:elevation="3dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/agree_text"
+        android:fontFamily="@font/raleway"
+        android:textColor="@color/text_clr"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/register_now"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/border_corner_bg"
+        android:backgroundTint="@color/blue"
+        style="?android:attr/buttonBarButtonStyle" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#6A6A6A"
+            android:layout_toStartOf="@id/or"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+
+            />
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/or"
+            android:textColor="@color/text_clr"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#6A6A6A"
+            android:layout_toEndOf="@id/or"
+            android:layout_marginStart="8dp"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/google_register"
+        android:contentDescription="@string/image1" />
+
+
+
+</LinearLayout>

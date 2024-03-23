@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_clr"
+    tools:context=".WelcomeScreen">
+
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="396dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/image1"
+        android:scaleType="fitXY"
+        android:src="@drawable/hero_image1" />
+
+    <TextView
+        android:id="@+id/welcome_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeImage"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/welcometitle3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_title"
+        android:layout_above="@id/screen1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/raleway"
+        android:text="@string/welcometext1"
+        android:textColor="@color/text_clr"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/screen1"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_above="@id/btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <View
+            android:layout_width="28dp"
+            android:layout_height="6dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="@color/black">
+
+        </View>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="#8A8A8A">
+
+        </View>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="#8A8A8A">
+
+        </View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/screen2"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_above="@id/btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        >
+        <View
+            android:layout_width="8dp"
+            android:layout_height="6dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="#8A8A8A">
+
+        </View>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="#000000">
+
+        </View>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="#8A8A8A">
+
+        </View>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/screen3"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_above="@id/btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        >
+        <View
+            android:layout_width="8dp"
+            android:layout_height="6dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="#8A8A8A">
+
+        </View>
+        <View
+            android:layout_width="8dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="#8A8A8A">
+
+        </View>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="6dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="#000000">
+
+        </View>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_margin="12dp"
+        >
+
+        <Button
+            android:id="@+id/btn_signin"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/signin"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/border_corner_bg"
+            android:backgroundTint="@color/blue"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/register"
+            android:textColor="@color/blue"
+            android:textAllCaps="false"
+            android:background="@drawable/border_corner_bg"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_clr"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MyProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:id="@+id/myprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_profile"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:fontFamily="@font/raleway_bold"
+            />
+
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/arrow"
+            android:contentDescription="@string/image1" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:src="@drawable/neon"
+            android:layout_below="@id/myprofile"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="28dp"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_email"
+        android:textColorHint="@color/text_clr"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:elevation="3dp"/>
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:textColorHint="@color/text_clr"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_password"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/enter_your_email"
+        android:inputType="textPassword"
+        android:elevation="3dp"/>
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_name"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"
+        android:textColorHint="@color/text_clr"
+        android:autofillHints="@string/enter_your_name"
+        android:inputType="text"
+        android:elevation="3dp"/>
+
+    <EditText
+        android:id="@+id/phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_number"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/enter_your_number"
+        android:textColorHint="@color/text_clr"
+        android:inputType="phone"
+        android:elevation="3dp"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="62dp"
+        android:text="@string/update_changes"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/border_corner_bg"
+        android:backgroundTint="@color/blue"
+        style="?android:attr/buttonBarButtonStyle" />
+
+
+
+</LinearLayout>
