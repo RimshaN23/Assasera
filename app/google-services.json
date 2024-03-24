@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444203869888",
+    "project_id": "assasera-2a9ce",
+    "storage_bucket": "assasera-2a9ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444203869888:android:1a5fab57a1f0ed00fdaf25",
+        "android_client_info": {
+          "package_name": "com.yolo.assasera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFlg6iTfZBUiSS9PSIpwtdIoDsYOdVqKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

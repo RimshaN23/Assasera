@@ -57,13 +57,17 @@ dependencies {
     implementation ("com.google.firebase:firebase-storage:20.3.0")
 
 
-    implementation ("com.google.android.gms:play-services-ads:23.0.0")
+//    implementation ("com.google.android.gms:play-services-ads:23.0.0")
 
     //cirular image
     implementation ("de.hdodenhof:circleimageview:3.1.0")
 
     implementation ("com.squareup.picasso:picasso:2.71828")
     implementation("com.google.android.gms:play-services-location:21.2.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
 
 
     testImplementation("junit:junit:4.13.2")
