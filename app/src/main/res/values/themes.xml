@@ -3,15 +3,25 @@
     <style name="Base.Theme.Assasera" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_list_selector</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+
     </style>
 
     <style name="Theme.Assasera" parent="Base.Theme.Assasera" />
 
     <style name="Theme.Assasera.NoActionBar">
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_list_selector</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="activatedBackgroundIndicator.NavigationDrawer" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">@color/blue</item>
+    </style>
 
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/black</item>
+    </style>
     <style name="Theme.Assasera.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Assasera.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
