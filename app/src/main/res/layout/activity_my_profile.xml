@@ -40,10 +40,10 @@
             android:id="@+id/profile_pic"
             android:layout_width="138dp"
             android:layout_height="138dp"
-            android:src="@drawable/neon"
             android:layout_below="@id/myprofile"
             android:layout_centerInParent="true"
-            android:layout_marginTop="28dp"/>
+            android:layout_marginTop="28dp"
+            android:src="@drawable/neon" />
     </RelativeLayout>
 
     <EditText

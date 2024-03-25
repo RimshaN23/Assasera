@@ -67,6 +67,11 @@ effortlessly and enjoy a stress-free home-buying experience.</string>
     <string name="close">Close</string>
     <string name="settings">Settings</string>
     <string name="post_requests">Post requests affordably on Assesera. Our fees are minimal compared to traditional agents. Find your dream home without breaking the bank.</string>
+    <string name="minutes_ago">20 minutes ago</string>
+    <string name="view_number">View Number</string>
+    <string name="send_whatsapp">Send WhatsApp</string>
+    <string name="report">Report</string>
+    <string name="customer_ask_for">Here a customer ask for their requirement such as how many bedrooms, baths, garage, pool, location and more . . .</string>
 
 
 </resources>
