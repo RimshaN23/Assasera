@@ -72,6 +72,14 @@ effortlessly and enjoy a stress-free home-buying experience.</string>
     <string name="send_whatsapp">Send WhatsApp</string>
     <string name="report">Report</string>
     <string name="customer_ask_for">Here a customer ask for their requirement such as how many bedrooms, baths, garage, pool, location and more . . .</string>
+    <string name="assesera_prioritizes_our_needs">Assesera prioritizes our needs without charging you the customer excessive fees, providing them with a cost-effective solution for their home-buying and property seeking requirements.</string>
+    <string name="how_many_rooms">How Many Rooms</string>
+    <string name="select_property">Select Property</string>
+    <string name="type">Type</string>
+    <string name="enter_your_location">Enter your location</string>
+    <string name="enter_your_budget">Enter your budget</string>
+    <string name="continue_to_payment">Continue to payment</string>
+    <string name="usd">USD</string>
 
 
 </resources>

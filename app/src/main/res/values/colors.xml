@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0350E5</color>
     <color name="background_clr">#EDEFF2</color>
-    <color name="text_clr">#6A6A6A</color>
+    <color name="text_clr">#A9A9A9</color>
+    <color name="grey">#A9A9A9</color>
 
 </resources>

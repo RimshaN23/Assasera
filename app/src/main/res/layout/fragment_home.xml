@@ -20,6 +20,7 @@
         android:src="@drawable/rectangle_17"/>
 
     <GridLayout
+        android:layout_gravity="center"
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -112,6 +113,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/idViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
 
         <TextView
             android:layout_margin="6dp"

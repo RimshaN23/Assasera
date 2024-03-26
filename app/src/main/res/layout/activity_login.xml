@@ -108,7 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/or"
-            android:textColor="@color/text_clr"/>
+            android:textColor="@color/text_clr" />
 
         <View
             android:layout_width="match_parent"
