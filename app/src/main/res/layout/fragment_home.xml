@@ -130,11 +130,11 @@
             android:id="@+id/idViewPager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_above="@id/idTVSliderText"/>
 
         <LinearLayout
             android:id="@+id/idTVSliderText"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_alignParentBottom="true"
@@ -150,7 +150,7 @@
                 android:text="•"
                 android:textAlignment="center"
                 android:textColor="@color/blue"
-                android:textSize="40sp"
+                android:textSize="50sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -162,7 +162,7 @@
                 android:text="•"
                 android:textAlignment="center"
                 android:textColor="@color/grey"
-                android:textSize="40sp"
+                android:textSize="50sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -174,7 +174,7 @@
                 android:text="•"
                 android:textAlignment="center"
                 android:textColor="@color/grey"
-                android:textSize="40sp"
+                android:textSize="50sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
