@@ -108,8 +108,20 @@
         </androidx.cardview.widget.CardView>
 
     </GridLayout>
+    <TextView
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:background="@drawable/drawer_list_selector_bg"
+        android:text="@string/post_requests"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -117,53 +129,55 @@
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/idViewPager"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-
-        <TextView
-            android:layout_margin="6dp"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:background="@drawable/drawer_list_selector_bg"
-            android:text="@string/post_requests"/>
+            android:layout_above="@id/idTVSliderText"/>
 
         <LinearLayout
+            android:id="@+id/idTVSliderText"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:visibility="visible"
-            >
-            <View
-                android:layout_width="12dp"
-                android:layout_height="12dp"
-                android:background="@drawable/border_corner_bg"
-                android:backgroundTint="@color/blue">
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
 
-            </View>
-            <View
-                android:layout_width="12dp"
-                android:layout_height="12dp"
-                android:layout_marginStart="4dp"
-                android:background="@drawable/border_corner_bg"
-                android:backgroundTint="#D9D9D9">
+            <TextView
+                android:id="@+id/idTVSlideOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:text="•"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
-            </View>
-            <View
-                android:layout_width="12dp"
-                android:layout_height="12dp"
-                android:layout_marginStart="4dp"
-                android:background="@drawable/border_corner_bg"
-                android:backgroundTint="#D9D9D9">
+            <TextView
+                android:id="@+id/idTVSlideTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:text="•"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
-            </View>
+            <TextView
+                android:id="@+id/idTVSlideThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:text="•"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="40sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
-    </LinearLayout>
+    </RelativeLayout>
 
 </LinearLayout>

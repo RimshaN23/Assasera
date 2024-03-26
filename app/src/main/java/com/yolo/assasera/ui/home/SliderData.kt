@@ -1,4 +1,4 @@
-package com.yolo.assasera.ui.post_a_request
+package com.yolo.assasera.ui.home
 
 data class SliderData(
     var slideText: String,
