@@ -80,6 +80,8 @@ effortlessly and enjoy a stress-free home-buying experience.</string>
     <string name="enter_your_budget">Enter your budget</string>
     <string name="continue_to_payment">Continue to payment</string>
     <string name="usd">USD</string>
+    <string name="make_your_payment">Make your payment by copying the number below. Include the email address used to register Assasera in the reference section. After payment, provide the transaction number. Your post will be confirmed within a few hours.</string>
+    <string name="submit">Submit</string>
 
 
 </resources>

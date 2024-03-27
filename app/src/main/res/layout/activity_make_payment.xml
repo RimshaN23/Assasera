@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_clr"
+    android:padding="12dp"
+    tools:context=".MakePayment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp">
+
+        <RelativeLayout
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textSize="15sp"
+                android:text="@string/make_your_payment" />
+
+            <ImageView
+                android:id="@+id/name"
+                android:layout_below="@id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/name"
+                android:padding="12dp"
+                />
+
+            <ImageView
+                android:layout_below="@id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/number"
+                android:padding="12dp"
+                />
+            <ImageView
+                android:layout_below="@id/tv1"
+                android:layout_toEndOf="@id/name"
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mtn"
+                android:padding="12dp"
+                />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="Transaction ID"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/enter_your_email"
+        android:textColorHint="@color/text_clr"
+        android:inputType="textPassword"
+        android:elevation="3dp"/>
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/edittext_corner_bg"
+        android:hint="@string/enter_your_email"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="@string/enter_your_email"
+        android:textColorHint="@color/text_clr"
+        android:inputType="textEmailAddress"
+        android:elevation="3dp"/>
+
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/border_corner_bg"
+        android:backgroundTint="@color/blue"
+        style="?android:attr/buttonBarButtonStyle" />
+
+</LinearLayout>
